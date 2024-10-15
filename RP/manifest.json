@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Afandy"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.37"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "afandy music disc RP V1",
+		"description": "just wanted some of my own music disc",
+		"min_engine_version": [
+			1,
+			21,
+			1
+		],
+		"uuid": "b80ee5c1-a01f-4841-acd3-99e96b172b23",
+		"version": [
+			1,
+			0,
+			79
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "aebfa27e-ca4e-45ca-8ad9-14e54573e639",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "833ace62-d6c4-48bd-8c5b-417cb9b02d30",
+			"version": [
+				1,
+				0,
+				66
+			]
+		}
+	]
+}

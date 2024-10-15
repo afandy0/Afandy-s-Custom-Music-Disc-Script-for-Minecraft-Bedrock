@@ -1,0 +1,67 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Afandy"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.37"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "afandy music disc BP V1",
+		"description": "just wanted some of my own music disc",
+		"min_engine_version": [
+			1,
+			21,
+			1
+		],
+		"uuid": "833ace62-d6c4-48bd-8c5b-417cb9b02d30",
+		"version": [
+			1,
+			0,
+			66
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "696c649f-888c-4133-83f6-fc452f8e59e9",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "e6b6a368-ff1c-4cfc-8403-8e6a161e34e6",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "b80ee5c1-a01f-4841-acd3-99e96b172b23",
+			"version": [
+				1,
+				0,
+				79
+			]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.16.0-beta"
+		}
+	]
+}
