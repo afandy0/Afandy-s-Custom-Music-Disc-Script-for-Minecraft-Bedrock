@@ -1,15 +1,6 @@
 {
 	"format_version": "1.14.0",
 	"sound_definitions": {
-		"allMyFellas": {
-			"sounds": [
-				{
-					"name": "sounds/Frizk-All-My-Fellas-(Gospeljingle.com)",
-					"volume": 1.0
-				}
-			],
-			"category": "neutral",
-			"max_distance": 30.0
-		}
+		//define your song identfier here
 	}
 }
