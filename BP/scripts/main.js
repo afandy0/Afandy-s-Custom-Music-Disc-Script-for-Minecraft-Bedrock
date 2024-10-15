@@ -134,10 +134,10 @@ CustomMusicFunction.AddMusicItem({
     JukeBoxTypes: [
         "minecraft:jukebox"
     ],
-    DisplayText: "Playing My Music"
+    DisplayText: "Playing cat"
 }).AddMusicItem({
-    DiscItemTypeId: "afm:all_my_fellas_disc",
-    SoundId: "allMyFellas",
+    DiscItemTypeId: "minecraft:oak_sapling",
+    SoundId: "record.cat",
     DropItemOffset: [0, 1, 0],
     SoundOptions: {
         volume: 0.2,
@@ -146,10 +146,10 @@ CustomMusicFunction.AddMusicItem({
     JukeBoxTypes: [
         "minecraft:jukebox"
     ],
-    DisplayText: "Playing All My Fellas"
+    DisplayText: "Playing cat"
 }).AddMusicItem({
     DiscItemTypeId: "minecraft:apple",
-    SoundId: "allMyFellas",
+    SoundId: "record.cat",
     DropItemOffset: [0, 1, 0],
     SoundOptions: {
         volume: 0.2,
@@ -158,5 +158,5 @@ CustomMusicFunction.AddMusicItem({
     JukeBoxTypes: [
         "minecraft:jukebox"
     ],
-    DisplayText: "Playing All My Fellas"
+    DisplayText: "Playing cat"
 })
