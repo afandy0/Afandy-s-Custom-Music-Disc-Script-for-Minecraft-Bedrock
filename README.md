@@ -65,8 +65,4 @@ If you’d like to contribute to this project, feel free to submit a pull reques
 
 ## Support
 
-If you have questions or need help, please create an issue in this repository. We’ll do our best to assist you!
-
-## Acknowledgments
-
-Thanks to the Minecraft community for the continued support and inspiration! Enjoy creating your custom music experiences!
+If you have questions or need help, please create an issue in this repository. I’ll do my best to assist you!
