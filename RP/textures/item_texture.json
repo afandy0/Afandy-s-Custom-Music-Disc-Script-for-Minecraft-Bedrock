@@ -1,9 +1,0 @@
-{
-	"resource_pack_name": "afandy music disc",
-	"texture_name": "atlas.items",
-	"texture_data": {
-		"afm_all_my_fellas_disc": {
-			"textures": "textures/items/all_my_fellas_disc"
-		}
-	}
-}
