@@ -13,20 +13,40 @@ This project is licensed under the MIT License. Feel free to use, modify, and di
 - Control sound properties such as volume and pitch.
 - Display messages when music is played.
 
+
 ## Installation
 
-1. **Download the Addon:**
-   Clone or download this repository to your local machine.
+### 1. Add the Script to Your Addon
 
-   ```bash
-   git clone https://github.com/afandy0/custom-music-disc-addon.git
+Instead of downloading the entire addon, you can easily integrate the script into your own Minecraft Bedrock addon. 
 
-2. Add the Script: Place the main.js file in the appropriate directory of your Minecraft Bedrock addon.
+- Copy the code from the `main.js` file in this repository.
+- Paste it into your own `main.js` file within the scripts folder of your addon.
 
-3. Edit the manifest.json: Ensure your manifest.json is set up correctly to include this script.
+### 2. Edit Your Behavior Pack Manifest
 
-4. Load the Addon in Minecraft: Launch Minecraft and navigate to the settings to activate your addon.
+In your `manifest.json` file (located in the behavior pack folder), make sure to update the `@minecraft/server` version to either `1.15.0` (for stability) or `1.16.0-beta` (for the latest beta features).
 
+- **Recommended**: Set the version to `1.15.0` to avoid needing to update your manifest with every new Minecraft update. This version will remain stable and will not change with future releases.
+- **Optional**: If your addon already uses features from the beta version of Minecraft, you can continue using the beta version (`1.16.0-beta`), but note that beta versions change frequently, so you'll need to update your `manifest.json` accordingly.
+
+**Example:**
+```json
+"dependencies": [
+    {
+        "uuid": "b80ee5c1-a01f-4841-acd3-99e96b172b23",
+        "version": [
+            1,
+            0,
+            79
+        ]
+    },
+    {
+        "module_name": "@minecraft/server",
+        "version": "1.15.0"
+    }
+]
+```
 
 ## Usage
 
@@ -54,10 +74,6 @@ You can define your custom music discs by using the `AddMusicItem` method in the
        DisplayText: "Playing 13"
    });
 
-### Interacting with Music Discs
-
-- To play music, **do not sneak** while right-clicking on a jukebox with your custom disc. The script is designed to ignore disc dropping if the player is sneaking, preventing potential duplication of the disc.
-- To break a jukebox while music is playing, simply break the block, and the disc will drop.
 
 ## Contributing
 
