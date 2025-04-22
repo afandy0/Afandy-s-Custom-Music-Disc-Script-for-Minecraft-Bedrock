@@ -27,8 +27,8 @@ Instead of downloading the entire addon, you can easily integrate the script int
 
 In your `manifest.json` file (located in the behavior pack folder), make sure to update the `@minecraft/server` version to either `1.15.0` (for stability) or `1.16.0-beta` (for the latest beta features).
 
-- **Recommended**: Set the version to `1.15.0` to avoid needing to update your manifest with every new Minecraft update. This version will remain stable and will not change with future releases.
-- **Optional**: If your addon already uses features from the beta version of Minecraft, you can continue using the beta version (`1.16.0-beta`), but note that beta versions change frequently, so you'll need to update your `manifest.json` accordingly.
+- **Recommended**: Set the version to `1.15.0` as the script was devloped on this version, and should remain stable throughout future minecraft updates.
+- **Optional**: if you are useing a difrent version already it will likely still work as most versions are compatible with the script but it's recommended to check anyway.
 
 **Example:**
 ```json
