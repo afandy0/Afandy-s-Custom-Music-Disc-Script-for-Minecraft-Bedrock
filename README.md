@@ -1,6 +1,6 @@
 # Afandy's Custom Music Disc Addon for Minecraft Bedrock
 
-Afandy's Custom Music Disc Addon allows you to create and play custom music discs in Minecraft Bedrock Edition.
+This script allows you to create and play custom music discs in Minecraft Bedrock Edition.
 
 ## License
 
@@ -8,10 +8,9 @@ This project is licensed under the MIT License. Feel free to use, modify, and di
 
 ## Features
 
-- Create custom music discs using any item.
-- Define which blocks can play your music discs (currently limited to jukebox).
-- Control sound properties such as volume and pitch.
-- Display messages when music is played.
+- Easy creation of custom music discs using any item.
+- Control of sound properties such as volume and pitch when played through your music disc.
+- Displays messages when you custom music is played.
 
 
 ## Installation
@@ -25,9 +24,9 @@ Instead of downloading the entire addon, you can easily integrate the script int
 
 ### 2. Edit Your Behavior Pack Manifest
 
-In your `manifest.json` file (located in the behavior pack folder), make sure to update the `@minecraft/server` version to either `1.15.0` (for stability) or `1.16.0-beta` (for the latest beta features).
+In your `manifest.json` file (located in the behavior pack folder), make sure to update the `@minecraft/server` version to either `1.15.0` or `1.16.0`, though the script works in more scripting api versions, it's recommended you still check for compatibility.
 
-- **Recommended**: Set the version to `1.15.0` as the script was devloped on this version, and should remain stable throughout future minecraft updates.
+- **Recommended**: Set the version to `1.15.0` or `1.16.0` as the script was devloped on this version, and should remain stable throughout future minecraft updates.
 - **Optional**: if you are useing a difrent version already it will likely still work as most versions are compatible with the script but it's recommended to check anyway.
 
 **Example:**
@@ -59,7 +58,7 @@ You can define your custom music discs by using the `AddMusicItem` method in the
 
    - `DiscItemTypeId`: The item ID you want to use as a music disc.
    - `SoundId`: The sound that will play when the disc is used.
-   - `DropItemOffset`: **This must be defined as shown in the example below to ensure the disc drops correctly when returned.**
+   - `DropItemOffset`: **While you can change this value, it's recommended you define it as shown in the example below to ensure the disc drops correctly when returned.**
    - `JukeBoxTypes`: **Always set this to `["minecraft:jukebox"]`.** This is necessary due to a bug that occurs when trying to break a non-vanilla jukebox.
    - `DisplayText`: A message displayed to the player when the music is played.
 
